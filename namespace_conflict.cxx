@@ -16,6 +16,8 @@ using namespace foo;
 using namespace bar;  // No problem importing both namespaces
 
 int main(){
-  say(); // Error - call to say is ambiguous
+  // Error - call to say is ambiguous
+  //say();
+  foo::say();
   return 0;
 }
